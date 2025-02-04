@@ -11,6 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "primary-blue": "#042675",
+        "secondary-blue": "#0c48d7",
+      },
+    },
+    keyframes: {
+      shimmer: {
+        '100%': {
+          transform: 'translateX(100%)',
+        },
       },
     },
   },
